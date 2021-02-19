@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 let dbURI =
-  "mongodb+srv://hassan:hassan@cluster0.u0q5y.mongodb.net/firstdB?retryWrites=true&w=majority";
+  "mongodb+srv://chaters:1111@zar.r0ctt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 //https://mongoosejs.com/docs/connections.html#connection-events

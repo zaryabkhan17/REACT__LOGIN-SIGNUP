@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { Redirect, useHistory } from "react-router-dom";
 
 const Login = () => {
-  //   const url = "http://localhost:5000";
-  const url = "https://food-mania.herokuapp.com";
+    const url = "http://localhost:5000";
+ 
 
   const history = useHistory();
 

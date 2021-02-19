@@ -15,9 +15,9 @@ api.post("/signup", (req, res, next) => {
               please send name, email, password, phone and gender in json body.
               e.g:
               {
-                  "userName": "h",
-                  "userEmail": "h@gmail.com",
-                  "userPassword": "abc",
+                  "userName": "zaryab",
+                  "userEmail": "zar@gmail.com",
+                  "userPassword": "qqqq",
                  
               }`);
     return;
@@ -83,8 +83,8 @@ api.post("/login", (req, res, next) => {
               please send email and password in json body.
               e.g:
               {
-                  "currentEmail": "hassan@gmail.com",
-                  "currentPassword": "abc",
+                  "currentEmail": "zaryab@gmail.com",
+                  "currentPassword": "qqqq",
               }`);
     return;
   }
@@ -178,7 +178,7 @@ api.post("/forget-password", (req, res, next) => {
         .then((doc) => {
           client
             .sendEmail({
-              From: "hassan_student@sysborg.com",
+              From: "zaryab_student@sysborg.com",
               To: req.body.email,
               Subject: "Reset your password",
               TextBody: `Here is your password reset code: ${otp}`,
